@@ -15,7 +15,11 @@ int main(int argc, char* argv[]) {
 	int input = atoi(argv[1]);
 	if (input>0){
 		printf("Sqrt of %d is %f\n",input,sqrt(input));
-		printf("trying to create conflict step one");}
+<<<<<<< HEAD
+		printf("ok");}
+=======
+		printf("ok");}
+>>>>>>> br_negSupport
 	else{
 		input=-(input);
 		printf("Sqrt of %d is i*%f\n))",input,sqrt(input));
