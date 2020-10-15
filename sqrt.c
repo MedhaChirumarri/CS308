@@ -16,10 +16,14 @@ int main(int argc, char* argv[]) {
 	if (input>0){
 		printf("Sqrt of %d is %f\n",input,sqrt(input));
 <<<<<<< HEAD
+<<<<<<< HEAD
 		printf("exiting");
 =======
 		printf("exiting");}
 >>>>>>> br_negSupport
+=======
+		printf("exiting");
+>>>>>>> br_debug
 	else{
 		input=-(input);
 		printf("Sqrt of %d is i*%f\n))",input,sqrt(input));
